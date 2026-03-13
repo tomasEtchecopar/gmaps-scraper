@@ -6,8 +6,8 @@ Scraper de Google Maps para extraer datos de negocios sin API key. Genera un CSV
 
 | Archivo | Descripción |
 |---|---|
-| `gmaps_scraper.py` | Una sola query por ejecución |
-| `gmaps_scraper_multi.py` | Múltiples queries en paralelo |
+| `script_uni.py` | Una sola query por ejecución |
+| `script_multi.py` | Múltiples queries en paralelo |
 
 ## Requisitos
 
@@ -24,7 +24,8 @@ python script_uni.py "restaurantes Mar del Plata" 30
 ```
 
 ### Múltiples queries en paralelo
-Editá la lista `QUERIES` y la variable `WORKERS` en `gmaps_scraper_multi.py`:
+Editá la lista `QUERIES` y la variable `WORKERS` en `script_multi
+.py`:
 
 ```python
 WORKERS = 5  # browsers en paralelo
